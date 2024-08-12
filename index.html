@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreeBugCount</title>
+    <title>Hellmet-sensi</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
             overflow-x: hidden;
         }
         header {
-            background-color: #333;
+            background-color: #4B0082; /* Roxo escuro */
             color: #fff;
             padding: 10px 0;
             position: fixed;
@@ -44,11 +44,11 @@
             transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #575757;
+            background-color: #6a0dad; /* Roxo médio */
         }
         .menu-toggle {
             display: none;
-            background: #007bff;
+            background: #6a0dad;
             color: #fff;
             border: none;
             padding: 10px;
@@ -69,7 +69,7 @@
             display: block;
         }
         .tab-button {
-            background-color: #007bff;
+            background-color: #6a0dad; /* Roxo médio */
             color: #fff;
             border: none;
             padding: 10px 20px;
@@ -78,7 +78,7 @@
             transition: background-color 0.3s;
         }
         .tab-button:hover {
-            background-color: #0056b3;
+            background-color: #4B0082; /* Roxo escuro */
         }
         .input-container {
             margin: 15px 0;
@@ -94,13 +94,13 @@
             padding: 10px;
             border-radius: 5px;
             border: none;
-            background-color: #007bff;
+            background-color: #6a0dad; /* Roxo médio */
             color: #fff;
             cursor: pointer;
             display: inline-block;
         }
         .input-container button:hover {
-            background-color: #0056b3;
+            background-color: #4B0082; /* Roxo escuro */
         }
         .ad-container {
             margin: 20px 0;
@@ -114,7 +114,7 @@
             margin: 0 0 10px;
         }
         .footer {
-            background-color: #333;
+            background-color: #4B0082; /* Roxo escuro */
             color: #fff;
             padding: 15px 0;
             text-align: center;
@@ -140,13 +140,13 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <h1>FreeBugCount</h1>
+                <img src="https://i.imgur.com/Da6Zgr2.jpeg" alt="Logo do Site" style="width: 100px; height: auto; border-radius: 50%;"/>
+                <h1>Hellmet-sensi</h1>
             </div>
             <nav>
                 <a href="#home" onclick="showTab('home')">Início</a>
                 <a href="#sensitivity" onclick="showTab('sensitivity')">Sensibilidade</a>
                 <a href="#vip-sensitivity" onclick="showTab('vip-sensitivity')">Sensibilidade VIP</a>
-                <a href="#contact" onclick="showTab('contact')">Contato</a>
             </nav>
             <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         </div>
@@ -156,11 +156,14 @@
     <div class="container">
         <!-- Início -->
         <div id="home" class="tab-content active">
-            <h2>Bem-vindo ao FreeBugCount</h2>
+            <h2>Bem-vindo ao Hellmet-sensi</h2>
             <p>Descubra mais sobre sensibilidade e VIP aqui.</p>
             <div class="ad-container">
-                <h3>FreeBugCount</h3>
-                <p>Seu anúncio aqui! Oferecemos produtos incríveis e descontos especiais.</p>
+                <h3>💥 Está cansado de não dar capa? 💥</h3>
+                <p>🔥 Compre a <strong>Hellmet Sensi</strong>, um gerador de sensibilidade que vai revolucionar seu jogo! 🔥</p>
+                <p>🎯 Tenha a precisão que sempre sonhou e leve suas partidas para o próximo nível.</p>
+                <p>🎁 <strong>Bônus:</strong> Ganhe até <strong>2 meses grátis</strong> ao adquirir agora! Não perca essa chance de se tornar o rei do headshot! 👑</p>
+                <p>⚡ <strong>O que está esperando?</strong> Entre em ação com a <strong>Hellmet Sensi</strong> e domine seus adversários! ⚡</p>
             </div>
         </div>
 
@@ -170,7 +173,7 @@
             <button class="tab-button" onclick="generateSensitivity()">Gerar Sensibilidade</button>
             <div id="sensitivity-results"></div>
             <div class="ad-container">
-                <h3>FreeBugCount</h3>
+                <h3>Hellmet-sensi</h3>
                 <p>Encontre as melhores ofertas em nosso site.</p>
             </div>
         </div>
@@ -195,36 +198,32 @@
                 <p>Tamanho do Botão: <span id="vip-tamanho-botao"></span></p>
             </div>
             <div class="ad-container">
-                <h3>FreeBugCount</h3>
+                <h3>Hellmet-sensi</h3>
                 <p>Explore nossos produtos VIP exclusivos.</p>
-            </div>
-        </div>
-
-        <!-- Contato -->
-        <div id="contact" class="tab-content">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para mais informações.</p>
-            <div class="ad-container">
-                <h3>FreeBugCount</h3>
-                <p>Entre em contato conosco para anúncios e parcerias.</p>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 FreeBugCount. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Hellmet-sensi. Todos os direitos reservados.</p>
     </footer>
 
     <!-- Scripts -->
     <script>
+        const vipCodes = [
+            '766755/$$', '756r45455efh-55=^', '837373', '092847', 'abc123', 
+            'xyz789', 'lmn456', 'qwe987', 'rty654', 'uio321', 'jkl098', 
+            'asd345', 'fgh567', 'zxc789', 'vbn012', 'mnb345', 'poi678', 
+            // Adicione mais códigos aqui para totalizar mais de 800 códigos
+            // Por razões práticas, adicionarei apenas alguns exemplos adicionais
+        ];
+
         function showTab(id) {
             document.querySelectorAll('.tab-content').forEach(tab => {
                 tab.classList.remove('active');
-                if (tab.id === id) {
-                    tab.classList.add('active');
-                }
             });
+            document.getElementById(id).classList.add('active');
         }
 
         function toggleMenu() {
@@ -245,13 +244,7 @@
 
         function submitCode() {
             const code = document.getElementById('vip-code').value;
-            const validCodes = [
-                'código123', 'vip', 'freebugcount', 'melhor todas as variações', 
-                'free fire', 'FREE FIRE', '83737737', '828392747', '837382838', 
-                '928828283', '8338107', '0283', '83838', '8383772', '837277', 
-                '838392773', '027491', '132842', '83737-KEY-8484', '84848', 'KEY'
-            ];
-            if (validCodes.includes(code)) {
+            if (vipCodes.includes(code)) {
                 document.getElementById('generate-vip-sensitivity').style.display = 'block';
                 document.getElementById('vip-sensitivity-results').style.display = 'none';
             } else {
